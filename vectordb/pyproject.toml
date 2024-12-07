@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vectordb"
+version = "0.1.0"
+description = "This is the tutorial to learn vector database with mongoDB"
+authors = ["Sparkline <sparkline.center@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = {extras = ["srv"], version = "^4.10.1"}
+pythondns = "^0.1"
+numpy = "<2.0.0"
+langchain = "^0.3.10"
+langchain-community = "^0.3.10"
+langchain-mongodb = "^0.2.0"
+langchain-openai = "^0.2.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
